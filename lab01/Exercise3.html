@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excercise3</title>
+</head>
+<style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    .box {
+      float: left;
+      width: 50%;
+      padding: 100px;
+    }
+    
+    .clearfix::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+
+    .color{
+        color: blue;
+    }
+
+    .button{
+        background-color: blue;
+        color: white;
+        border: none;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+    }
+    </style>
+<body>
+    <div class="clearfix">
+        <div class="box">
+            <img src="/anh.png" >
+        </div>
+
+        <div class="box">
+            <h1>About Us</h1>
+    <p>Front-end developer & <a class="color">Designer</a></p>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Expecdita natus ad sed harum itaque ullam enim.</p>
+    <input type="button" value="Hire Me" class="button">
+        </div>
+    </div>
+
+</body>
+
+</html>
